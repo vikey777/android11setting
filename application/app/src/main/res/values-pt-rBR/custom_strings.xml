@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/*
+**
+** Copyright 2017-2018 The OmniROM Project
+**
+** Licensed under the Apache License, Version 2.0 (the "License");
+** you may not use this file except in compliance with the License.
+** You may obtain a copy of the License at
+**
+**     http://www.apache.org/licenses/LICENSE-2.0
+**
+** Unless required by applicable law or agreed to in writing, software
+** distributed under the License is distributed on an "AS IS" BASIS,
+** WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+** See the License for the specific language governing permissions and
+** limitations under the License.
+*/
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="usb_enable_diagnostics">Habilitar diagnósticos USB</string>
+    <string name="usb_enable_diagnostics_summary">Colocar dispositivo no modo de diagnóstico USB</string>
+    <string name="selinux_status">Estado do SELinux</string>
+    <string name="selinux_status_disabled">Desativado</string>
+    <string name="selinux_status_permissive">Permissivo</string>
+    <string name="selinux_status_enforcing">Impondo</string>
+    <string name="app_package_name_title">Pacote</string>
+    <string name="app_version_title">Versão</string>
+    <string name="mod_version">Versão Omni</string>
+    <string name="mod_version_default">Desconhecida</string>
+    <string name="header_category_omni">OmniGears</string>
+    <string name="omni_dashboard_summary">Omnifique o seu dispositivo</string>
+    <!-- Format string for fingerprint location message -->
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_cm" product="tablet">Localize o sensor de impressão digital no <xliff:g id="sensor_location">%1$s</xliff:g> do seu tablet.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_cm" product="device">Localize o sensor de impressão digital <xliff:g id="sensor_location">%1$s </xliff:g> do seu dispositivo.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_cm" product="default">Localize o sensor de impressão digital <xliff:g id="sensor_location">%1$s </xliff:g> do seu dispositivo.</string>
+    <!-- Fingerprint sensor locations -->
+    <string name="security_settings_fingerprint_sensor_location_back">voltar</string>
+    <string name="security_settings_fingerprint_sensor_location_front">na frente</string>
+    <string name="security_settings_fingerprint_sensor_location_left">no lado esquerdo</string>
+    <string name="security_settings_fingerprint_sensor_location_right">no lado direito</string>
+    <!-- Back gesture height -->
+    <string name="back_height_low_label">Completo</string>
+    <string name="back_height_high_label">Inferior</string>
+    <string name="back_options_dialog_title">Opções</string>
+    <string name="back_height_message">Quantidade de altura da tela usada como região sensível ao toque para trás.</string>
+    <!-- Sound: Title for the option defining the phone ringtone for slot1 on Muilti SIM device. [CHAR LIMIT=50] -->
+    <!-- Sound: Title for the option defining the phone ringtone for slot2 on Muilti SIM device. [CHAR LIMIT=50] -->
+    <!-- Volume link notification -->
+    <!-- String for removal of sensitive info on about, depending on tap -->
+</resources>
